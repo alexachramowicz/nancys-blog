@@ -17,10 +17,10 @@ li.nav-logo {
     margin-right: auto;
 }
 
-ul.nav-list {
+ul.nav-list, ul.footer-list{
     list-style: none;
     margin: 0;
-    padding: 10px 200px;
+    padding: 10px 250px;
     color: #161616;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@ li.nav-element {
 
 .header-container {
     background-color: #571919;
-    padding: 50px 200px;
+    padding: 50px 250px;
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
@@ -124,8 +124,10 @@ li.nav-element {
 }
 
 .contact-container {
-    padding: 50px 300px;
-    color: #e5e7eb
+    padding: 25px 500px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-container-nested {
@@ -133,13 +135,23 @@ li.nav-element {
     background-color: #3d1515;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    max-width: 200px;
+    flex: 1;
+}
+
+.contact-container p {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
 }
 
 .contact-container button {
-    max-width: 100px;
     padding: 5px;
-    /* margin-top: auto; */
+    margin-top: 10px;
     background-color: rgb(168, 0, 87);
     border-radius: 8px;
     border-style: none;
@@ -148,4 +160,10 @@ li.nav-element {
 .contact-container a {
     color: #e5e7eb;
     text-decoration: none;
+    font-size: 18px;
+}
+
+.socials-container {
+    margin-top: 10px;
+    background-color: lightgray;
 }
