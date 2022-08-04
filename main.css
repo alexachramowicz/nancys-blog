@@ -167,3 +167,12 @@ li.nav-element {
     margin-top: 10px;
     background-color: lightgray;
 }
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5px 0px;
+}
