@@ -1,0 +1,151 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+.nav-bar {
+    background-color: rgba(195, 195, 195, 0.333);
+}
+
+li.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+ul.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 10px 200px;
+    color: #161616;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+li.nav-element {
+    font-size: 18px;
+}
+
+.nav-element img {
+    width: 25px;
+    height: auto;
+}
+
+.header-container {
+    background-color: #571919;
+    padding: 50px 200px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header-left {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-left-container p {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.header-image img {
+    width: 450px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 5%;
+}
+
+.card-container {
+    background-color: white;
+    padding: 50px 250px;
+    text-align: center;
+}
+
+.card-container h2 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    margin-top: 25px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    border: 5px solid #571919;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 350px;
+}
+
+#quote {
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-container #author{
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.contact-container {
+    padding: 50px 300px;
+    color: #e5e7eb
+}
+
+.contact-container-nested {
+    padding: 40px;
+    background-color: #3d1515;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-container button {
+    max-width: 100px;
+    padding: 5px;
+    /* margin-top: auto; */
+    background-color: rgb(168, 0, 87);
+    border-radius: 8px;
+    border-style: none;
+}
+
+.contact-container a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
