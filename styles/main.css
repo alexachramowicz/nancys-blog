@@ -41,7 +41,8 @@ li.nav-element {
     padding: 50px 250px;
     color: #f9faf8;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-left-container {
@@ -51,7 +52,7 @@ li.nav-element {
 }
 
 .header-left {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
@@ -86,6 +87,7 @@ li.nav-element {
     display: flex;
     gap: 100px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -183,4 +185,12 @@ footer a {
 
 footer a:hover {
     color: white;
+}
+
+#hidden {
+    color: cyan
+}
+
+#hidden:hover {
+    color: orange
 }
