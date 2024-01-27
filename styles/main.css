@@ -197,3 +197,11 @@ footer a:hover {
 #hidden:hover {
     color: orange
 }
+
+#year3 {
+    color: #e5e7eb
+}
+
+#year3:hover {
+    color: #ff347f
+}
