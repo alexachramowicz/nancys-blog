@@ -1,5 +1,5 @@
 html, body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Garamond, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,7 +8,7 @@ html, body {
 }
 
 .nav-bar {
-    background-color: rgba(195, 195, 195, 0.333);
+    background-color: #c9356c;
 }
 
 li.nav-logo {
@@ -21,7 +21,7 @@ ul.nav-list, ul.footer-list{
     list-style: none;
     margin: 0;
     padding: 10px 250px;
-    color: #161616;
+    color: #FAF9F6;
     display: flex;
     align-items: center;
     gap: 25px;
@@ -37,9 +37,9 @@ li.nav-element {
 }
 
 .header-container {
-    background-color: #571919;
+    background-color: #f48db4;
     padding: 50px 250px;
-    color: #f9faf8;
+    color: #fafafa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,47 +64,49 @@ li.nav-element {
 }
 
 .header-image img {
-    width: 450px;
+    width: 400px;
     height: auto;
     margin-left: 50px;
     border-radius: 5%;
 }
 
 .card-container {
-    background-color: white;
+    background-color: #fafafa;
     padding: 50px 250px;
     text-align: center;
 }
 
 .card-container h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin: 0;
     padding: 0;
+    color: #c9356c;
 }
 
 .cards {
     margin-top: 25px;
     display: flex;
-    gap: 100px;
+    gap: 50px 100px;
     justify-content: center;
     flex-wrap: wrap;
+    color: #c9356c;
+    font-size: 15px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-
 }
 
 .card img{
     width: 150px;
     height: auto;
     margin-bottom: 10px;
-    border: 5px solid #571919;
+    border: 5px solid #c9356c;
 }
 
 .quote-container {
-    background-color: #e5e7eb;
+    background-color: #f48db4;
     display: flex;
     flex-direction: column;
     padding: 100px 350px;
@@ -130,11 +132,12 @@ li.nav-element {
     color: #e5e7eb;
     display: flex;
     justify-content: center;
+    background-color: #fafafa;
 }
 
 .contact-container-nested {
-    padding: 40px;
-    background-color: #3d1515;
+    padding: 20px;
+    background-color: #ff347f;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -153,7 +156,7 @@ li.nav-element {
 
 .contact-container button {
     padding: 5px;
-    margin-top: 10px;
+    margin-top: 11px;
     background-color: rgb(168, 0, 87);
     border-radius: 8px;
     border-style: none;
@@ -167,7 +170,7 @@ li.nav-element {
 
 .socials-container {
     margin-top: 10px;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 footer {
