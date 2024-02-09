@@ -9,6 +9,11 @@ html, body {
 
 .nav-bar {
     background-color: #c9356c;
+    background-image: url("../images/bgr-hearts.jpg");
+    background-repeat: repeat;
+    background-size: 35%;
+    background-position: center;
+    background-blend-mode: color-burn;
 }
 
 li.nav-logo {
@@ -37,12 +42,18 @@ li.nav-element {
 }
 
 .header-container {
-    background-color: #f48db4;
+    background-color: rgb(244, 141, 180, 1);
     padding: 50px 250px;
     color: #fafafa;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../images/bgr-hearts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+    background-size: cover;
 }
 
 .header-left-container {
@@ -74,6 +85,12 @@ li.nav-element {
     background-color: #fafafa;
     padding: 50px 250px;
     text-align: center;
+    background-image: url("../images/bgr-hearts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+    background-size: cover;
 }
 
 .card-container h2 {
@@ -91,6 +108,12 @@ li.nav-element {
     flex-wrap: wrap;
     color: #c9356c;
     font-size: 15px;
+    background-image: url("../images/bgr-hearts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+    background-size: cover;
 }
 
 .card {
@@ -110,6 +133,12 @@ li.nav-element {
     display: flex;
     flex-direction: column;
     padding: 100px 350px;
+    background-image: url("../images/bgr-hearts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+    background-size: cover;
 }
 
 #quote {
@@ -146,6 +175,12 @@ li.nav-element {
     min-width: 200px;
     max-width: 200px;
     flex: 1;
+    background-image: url("../images/bgr-hearts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+    background-size: cover;
 }
 
 .contact-container p {
@@ -204,4 +239,8 @@ footer a:hover {
 
 #year3:hover {
     color: #ff347f
+}
+
+.copyright-container {
+    font-size: 12px;
 }
