@@ -1,7 +1,11 @@
 html, body {
-    background-color: rgb(255, 124, 242);
-    margin: 0;
-    padding: 0;
+    background-color: rgb(255, 255, 255);
+    /* margin: 0;
+    padding: 0; */
+    background-image: url("../images/bgr-hearts.jpg");
+    /* background-position: center; */
+    /* background-blend-mode: color-burn; */
+    background-size: 50%;
 }
 
 .note-container {
@@ -18,4 +22,6 @@ html, body {
 img {
     height: auto;
     width: 400px;
+    opacity: 90%;
+    border-radius: 5%;
 }
