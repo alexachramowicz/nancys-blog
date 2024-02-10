@@ -85,12 +85,6 @@ li.nav-element {
     background-color: #fafafa;
     padding: 50px 250px;
     text-align: center;
-    background-image: url("../images/bgr-hearts.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: color-burn;
-    background-size: cover;
 }
 
 .card-container h2 {
@@ -161,7 +155,12 @@ li.nav-element {
     color: #e5e7eb;
     display: flex;
     justify-content: center;
-    background-color: #fafafa;
+    background-color: #f48db4;
+    background-image: url("../images/bgr-hearts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
 }
 
 .contact-container-nested {
@@ -180,7 +179,6 @@ li.nav-element {
     background-size: cover;
     background-position: center;
     background-blend-mode: color-burn;
-    background-size: cover;
 }
 
 .contact-container p {
@@ -243,4 +241,36 @@ footer a:hover {
 
 .copyright-container {
     font-size: 12px;
+}
+
+.songs-container {
+    padding: 25px 250px;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    background-image: url("../images/bgr-hearts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+    background-size: cover;
+}
+
+.songs-container h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: #c9356c;
+}
+
+.song-cards {
+    margin-top: 25px;
+    display: flex;
+    gap: 50px 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #c9356c;
+    font-size: 15px;
 }
