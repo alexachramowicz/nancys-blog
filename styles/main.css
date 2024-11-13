@@ -122,6 +122,10 @@ li.nav-element {
     border: 5px solid #c9356c;
 }
 
+#easter-egg a:hover{
+    color: white;
+}
+
 .quote-container {
     background-color: #f48db4;
     display: flex;
