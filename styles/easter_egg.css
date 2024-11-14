@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bgr-images/nature_trees.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+}
+
+.note-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note {
+    margin: 50px;
+    font-size: 4rem;
+    color: white;
+    width: 700px;
+}
+
+img {
+    height: auto;
+    width: 600px;
+    opacity: 80%;
+}
