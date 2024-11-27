@@ -122,6 +122,10 @@ li.nav-element {
     border: 5px solid #c9356c;
 }
 
+#easter-egg a:hover{
+    color: white;
+}
+
 .quote-container {
     background-color: #f48db4;
     display: flex;
@@ -273,4 +277,12 @@ footer a:hover {
     flex-wrap: wrap;
     color: #c9356c;
     font-size: 15px;
+}
+
+#easter-egg img {
+    transition: 0.5s ease; /* Smooth transition */
+}
+
+#easter-egg img:hover {
+    opacity: 0.4; /* Change opacity on hover */
 }

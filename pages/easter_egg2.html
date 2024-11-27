@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .error {
+            font-size: 14px;
+            text-align: center;
+            font-weight: bold;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>The Fnal Stage:<br><br> How long will we be together?</h2>
+    <form id="passwordForm" onsubmit="return validatePassword()">
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <button type="submit">Submit</button>
+        <p class="error" id="errorMessage">try again cutie ;)</p>
+    </form>
+</div>
+
+<script>
+    let errorColorIndex = 0;
+    const errorColors = ['red', 'orange', 'blue', 'purple', 'green'];  // Array of colors for error messages
+
+    function validatePassword() {
+        // The correct password
+        const correctPassword = "forever";
+
+        // Get the value of the password input
+        const password = document.getElementById("password").value;
+        
+        // Get the error message element
+        const errorMessage = document.getElementById("errorMessage");
+
+        // Check if the password is correct
+        if (password === correctPassword) {
+            // Redirect to a new page (replace "success.html" with your desired page)
+            window.location.href = "nano_speedy.html";
+            return false;  // Prevent form submission since we're redirecting
+        } else {
+            // Display the error message
+            errorMessage.style.display = "block";
+            // Change the color of the error message
+            errorMessage.style.color = errorColors[errorColorIndex];
+
+            // Update the index for the next failed attempt color
+            errorColorIndex = (errorColorIndex + 1) % errorColors.length;
+
+            return false;  // Prevent form submission to stay on the same page
+        }
+    }
+</script>
+
+</body>
+</html>
