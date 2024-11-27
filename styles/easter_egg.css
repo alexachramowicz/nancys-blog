@@ -24,9 +24,9 @@ html, body {
 }
 
 .hidden-link {
-    font-size: 0.5rem;
-    color: white;
-    /* color: rgb(1, 43, 11); */
+    font-size: 1rem;
+    /* color: white; */
+    color: rgb(0, 89, 22);
     text-decoration: none;
     margin: 500px 0px 0px 1000px;
 }
