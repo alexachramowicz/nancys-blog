@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riddle Challenge</title>
+
+<style>
+    body {
+        background: #ff97d0;
+        color: white;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .box {
+        background: #2e3047;
+        padding: 30px;
+        border-radius: 12px;
+        width: 350px;
+        text-align: center;
+        box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+
+    input {
+        width: 90%;
+        padding: 10px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+    button {
+        margin-top: 15px;
+        padding: 10px 20px;
+        border: none;
+        background: #5865f2;
+        color: white;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    button:hover {
+        background: #4752c4;
+    }
+
+    .error {
+        color: #ff6961;
+        margin-top: 10px;
+        display: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Riddle Me This</h2>
+
+    <p><i>“I speak without a mouth and hear without ears.  
+    I have no body, but I come alive with wind.  
+    What am I?”</i></p>
+
+    <input id="answer" type="text" placeholder="Type your answer here">
+    <button onclick="checkAnswer()">Submit</button>
+
+    <div class="error" id="errorMsg">Incorrect answer. Try again!</div>
+</div>
+
+<script>
+function checkAnswer() {
+    const userAnswer = document.getElementById("answer").value.trim().toLowerCase();
+
+    if (userAnswer === "echo") {
+        window.location.href = "success.html"; // redirect on correct answer
+    } else {
+        document.getElementById("errorMsg").style.display = "block";
+    }
+}
+</script>
+
+</body>
+</html>
