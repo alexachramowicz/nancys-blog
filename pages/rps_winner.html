@@ -1,51 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>You Win!</title>
 
-<style>
-    body {
-        background: #16202c;
-        color: white;
-        font-family: Arial, sans-serif;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-    }
-    .box {
-        text-align: center;
-        padding: 40px;
-        background: #223344;
-        border-radius: 12px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.6);
-    }
-    a {
-        margin-top: 20px;
-        display: inline-block;
-        padding: 12px 20px;
-        background: #4a6cff;
-        color: white;
-        border-radius: 8px;
-        text-decoration: none;
-        transition: 0.3s;
-    }
-    a:hover {
-        background: #2c4ee8;
-    }
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Win!</title>
+
+    <style>
+        body {
+            background: #16202c;
+            color: white;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .box {
+            text-align: center;
+            padding: 40px;
+            background: #223344;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+        }
+
+        a {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 12px 20px;
+            background: #4a6cff;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background: #2c4ee8;
+        }
+
+        img {
+            height: auto;
+            width: 200px;
+        }
+    </style>
 </head>
+
 <body>
 
-<div class="box">
-    <h1>🎉 YOU WIN! 🎉</h1>
-    <p>You beat me. As a prize, you can get one favor and one kiss &hearts;</p>
-    <a href="../pages/rock_paper_scissors.html">Play Again</a>
-    <a href="../index.html">Home</a>
-</div>
+    <div class="box">
+        <h1>🎉 YOU WIN! 🎉</h1>
+        <p>You beat me &#128127;. As a prize, you can get one favor and one kiss &hearts;</p>
+        <div class="img">
+            <img src="../images/admit-one-ticket.jpg">
+        </div>
+        <a href="../pages/rock_paper_scissors.html">Play Again</a>
+        <a href="../index.html">Home</a>
+    </div>
 
 </body>
+
 </html>
